@@ -120,7 +120,18 @@ align-items: center;
 .main-4:has(#check-2:checked) .Weather-icon-1{
   visibility: visible;
 }
+.main-5-content-img{
+    height:400px;
+    width: 340px;
+    margin-top: 20px;
+}
+.main-5-content-img img {
+    height: 400px;
+    width: 340px;
+    display: flex;
+    object-fit: cover;
 
+}
 .taim-content-1{
     width: 95%;
     margin-top: 50px;
@@ -144,8 +155,23 @@ align-items: self-start;
     flex-direction: column;
 }
 
+.footer-nev{
+       height:50px;
+       margin-top: auto;
+}
+.footer-nev p{
+font-size: 10px;
+}
 
-
+.main-6{
+    padding: 50px 0px;
+}
+.main-6-content-items-1,
+.main-6-content-items-2,
+.main-6-content-items-3{
+height:250px;
+max-width: 300px;
+}
 
 
 

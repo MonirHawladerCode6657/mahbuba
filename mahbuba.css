@@ -455,6 +455,8 @@ background-size: cover;
     width: 100%;
     height: 1100px;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
     animation-name: background-color-2;
     animation-duration: 5s;
    animation-iteration-count: infinite;
@@ -480,7 +482,7 @@ align-items: center;
   background-color: rgba(87, 87, 87, 0.945);
   border-left: 1px solid rgba(255, 255, 255,0.5);
   width: 300px;
-  height: 98%;
+  height: 1100px;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -650,7 +652,28 @@ background-clip: text;
 .main-5-content-text p:last-of-type{
     color: chartreuse;
 }
-
+#view-my-work{
+    padding:10px ;
+    background-image: linear-gradient(rgb(238, 59, 208),rgb(157, 0, 248),rgb(225, 0, 255));
+    border-radius: 15px;
+}
+#contack-me{
+    padding:8px ;
+   border: 2px solid blueviolet;
+    border-radius: 15px;
+}
+#contack-me:hover{
+    padding:10px ;
+    border: none;
+    background-image: linear-gradient(rgb(238, 59, 208),rgb(157, 0, 248),rgb(225, 0, 255));
+    border-radius: 15px;
+}
+#view-my-work:hover{
+    background-image: none;
+    padding:8px ;
+   border: 2px solid blueviolet;
+    border-radius: 15px;
+}
 
 
 
@@ -683,12 +706,24 @@ background-clip: text;
         transform: translate(20px);
     }
 }
-
-
+.my-madrasha{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    background-size: cover;
+margin: auto;
+}
+.my-madrasha img{
+height: auto;
+width: 100%;
+border-radius: 20px;
+}
 
 
 .footer-nev{
-    height: 108px;
+    height: 150px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -698,4 +733,74 @@ background-clip: text;
     background-color: rgba(107, 43, 226, 0.993);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+
+.main-6{
+    height: fit-content;
+    width:100%;
+background-color: rgb(19, 28, 47);
+margin-top: 50px;
+animation-duration: 5s;
+animation-name: bos-shadow;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+box-sizing: border-box;
+padding: 100px;
+overflow: hidden;
+}
+@keyframes bos-shadow{
+    0%{box-shadow: inset 0 0 50px wheat;}
+    10%{ box-shadow: inset 0 0 50px rgb(43, 255, 0);}
+    20%{ box-shadow: inset 0 0 50px #7de6a9;}
+    30%{box-shadow: inset 0 0 50px rgb(235, 154, 5);}
+    40%{box-shadow: inset 0 0 50px rgb(253, 221, 162);}
+    50%{box-shadow: inset 0 0 50px rgb(253, 10, 10);}
+    60%{box-shadow: inset 0 0 50px wheat;}
+    70%{box-shadow: inset 0 0 50px rgb(177, 123, 247);}
+    80%{box-shadow: inset 0 0 50px rgb(241, 92, 229);}
+    90%{box-shadow: inset 0 0 50px rgb(78, 241, 201);}
+    100%{box-shadow: inset 0 0 50px rgb(250, 24, 24);}
+}
+
+.main-6 h4,h1{
+    color: white;
+    text-align: center;
+}
+.main-6-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  justify-content: center;
+}
+.main-6-content-items-1,
+.main-6-content-items-2,
+.main-6-content-items-3{
+height:250px;
+max-width: 300px;
+background-color: rgb(30, 41, 59);
+color: aliceblue;
+padding: 30px;
+border-radius: 10px;
+box-shadow: inset 0px 0px 5px white;
+transition:  transform 2s linear,  2s linear;
+}
+.main-6-content-items-1:hover,
+.main-6-content-items-2:hover,
+.main-6-content-items-3:hover{
+box-shadow: inset 0px 0px 5px rgb(10, 5, 255);
+transform: rotate(360deg);
+}
+
+.main-6-content-items-1 i,
+.main-6-content-items-2 i,
+.main-6-content-items-3 i{
+font-size: 40px;
+color:rgb(108, 92, 231);
+}
+.main-6-content-items-1 p,
+.main-6-content-items-2 p,
+.main-6-content-items-3 p{
+color: rgb(161, 160, 160);
 }
