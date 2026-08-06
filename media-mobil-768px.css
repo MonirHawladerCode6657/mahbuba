@@ -1,0 +1,159 @@
+@media screen and (max-width:800px){
+    .bennar-p{
+        color: aliceblue;
+    font-size: 10px !important;
+    font-weight: bold;
+    font-family:fantasy !important;
+    }
+    .bennar{
+        background-color: black;
+    }
+.main-0{
+    width: 95vw !important;
+       background-image:linear-gradient(70deg, rgb(49, 49, 49),rgb(2, 2, 2),rgb(1, 12, 75));
+}
+
+.link{
+    background-color: rgb(19, 19, 20);
+    position: absolute;
+    z-index: 1000;
+    height: 400px;
+    width: 300px;
+    top: 70px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px white;
+}
+.main-1 .link>ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    
+}
+.main-1 .link ul ul>li{
+  margin-left: 45px;
+  margin-bottom: 5px;
+  background-color: rgb(1, 1, 75);
+} 
+
+.main-1 .link ul li{
+height: 30px;
+width:80px;
+}
+.main-1 .link i{
+font-size: xx-large;
+color: beige;
+position: absolute;
+right: 18px;
+top:20px;
+ cursor: pointer;
+}
+.main-1 .link {
+    display: none;
+}
+.main-0:has(#check-1:checked) .link{
+ display: block;
+}
+
+.main-3 h1{
+font-size:20px;
+}
+.main-3 h2{
+    font-size: 18px;
+}
+.main-4{
+    margin-top: 30px;
+    width: 100%;
+    height: fit-content;
+}
+
+@keyframes background-color {
+    0%{
+        background-color: rgb(0, 0, 0);
+    }
+    20%{
+        background-color: rgb(22, 129, 0);
+    }
+    40%{
+        background-color: rgb(161, 0, 0);
+    }
+    60%{
+        background-color:rgb(49, 3, 255) ;
+    }
+    80%{
+        background-color: rgb(4, 48, 0);
+    }
+    100%{
+        background-color: rgb(0, 26, 2);
+    }
+}
+
+.Weather-logo-1 *{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+.Weather-icon-1{
+position: absolute;
+top:50px;
+width: 100%;
+height: 50px;
+background-color: rgb(165, 199, 228);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.check-2-iocn{
+    display: block;
+}
+.check-2-iocn i{
+   font-size: 20px;
+   color: blue;
+   cursor: pointer;
+}
+
+.Weather-icon-1{
+    visibility: hidden;
+}
+
+.main-4:has(#check-2:checked) .Weather-icon-1{
+  visibility: visible;
+}
+
+.taim-content-1{
+    width: 95%;
+    margin-top: 50px;
+}
+.futter-taime-1{
+    padding: 20px;
+      height:400px;
+      justify-content: center;
+}
+.futter-taime-2{
+flex-direction: column;
+height:100%;
+justify-content:flex-start;
+align-items: self-start;
+}
+.second-dutter-1{
+    font-size: 8px;
+}
+
+.main-5-content--text-and-img{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
