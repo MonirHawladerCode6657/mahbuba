@@ -14,16 +14,19 @@ body{
  .bennar{
     height:60px ;
     width:100% ;
-    background-color: rgb(51, 255, 78);
+    background-color: rgb(23, 36, 109);
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #7de6a9;
  }
 
 .main-0{
     width:80vw;
-    height:4000px;
-     background-image:linear-gradient(70deg, rgb(20, 112, 250),rgb(0, 15, 219),rgb(0, 15, 97));
+    height:4500px;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.5)), url(./pic/texture.png);
+    /* background-color: rgb(40, 42, 54); */
+     /* background-image:linear-gradient(70deg, rgb(1, 18, 43),rgb(0, 8, 116),rgb(0, 15, 97)); */
 position: relative;
     }
 
@@ -126,22 +129,22 @@ top: 5px;
 }
 @keyframes background-color {
     0%{
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(26, 5, 218);
     }
     20%{
-        background-color: rgb(42, 253, 0);
+        background-color: rgb(0, 26, 141);
     }
     40%{
-        background-color: rgb(255, 0, 0);
+        background-color: rgb(38, 0, 255);
     }
     60%{
         background-color:rgb(49, 3, 255) ;
     }
     80%{
-        background-color: rgb(24, 218, 6);
+        background-color: rgb(6, 29, 236);
     }
     100%{
-        background-color: rgb(91, 235, 103);
+        background-color: rgb(8, 44, 165);
     }
 }
 .main-3 *{
@@ -472,7 +475,7 @@ background-size: cover;
  .header-2{
     height: 60px;
     width: 100%;
-    background-color: rgb(0, 255, 76);
+    background-color: rgb(7, 131, 131);
 display: flex;
 align-items: center;
 
@@ -482,10 +485,11 @@ align-items: center;
   background-color: rgba(87, 87, 87, 0.945);
   border-left: 1px solid rgba(255, 255, 255,0.5);
   width: 300px;
-  height: 1100px;
+  height: 1040px;
   display: flex;
   flex-direction: column;
   position: fixed;
+  top: 60px;
  display: none;
  border-bottom-right-radius: 100px;
  border-bottom: 2px solid white;
@@ -561,7 +565,7 @@ color: bisque;
     
 }
 .saiderdoyer ul li{
-    padding: 23px 5px;
+    padding: 20px 5px;
 }
 .saiderdoyer ul li:hover{
     box-shadow: 0 0 14px rgba(255, 254, 254, 0.568);
@@ -803,4 +807,102 @@ color:rgb(108, 92, 231);
 .main-6-content-items-2 p,
 .main-6-content-items-3 p{
 color: rgb(161, 160, 160);
+}
+.main-7{
+    height: fit-content;
+width: 100%;
+background-color: rgb(3, 3, 63);
+margin-top: 50px;
+padding:  100px 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.main-7>h1{
+    text-align: center;
+    color: aliceblue;
+    margin: 0!important;
+    margin-bottom: 25px !important;
+}
+.main-7>p{
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: aliceblue;
+}
+
+.main-7-content{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 5px 5px rgb(28, 2, 141);
+    padding: 10px;
+    border-radius: 10px;
+}
+.infor-item{
+    display: flex;
+    justify-content:start;
+    padding: 25px;
+    gap: 20px;
+    color: rgb(219, 219, 219);
+}
+.infor-item i,
+.infor-item h2,
+.infor-item p{
+margin: 0 !important;
+padding: 0 !important;
+}
+
+.infor-item i{
+    font-size: 30px;
+    color: rgb(91, 21, 255);
+background-color: rgb(157, 157, 224);
+height: 50px;
+width: 50px;
+border-radius: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.infor-item i:hover{
+    color: rgb(157, 157, 224);
+background-color:rgb(91, 21, 255) ;
+
+}
+
+fieldset{
+    height: 100%;
+    border-radius: 20px;
+    color: rgb(253, 228, 0);
+    text-align: center;
+}
+fieldset input{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    outline: none !important;
+    padding: 10px;
+}
+#text-area {
+ border-radius: 10px;
+}
+fieldset input,#text-area{
+    border: none !important;
+    margin-top: 2px;
+    color: aliceblue;
+    font-size: 16px;
+   background-color:rgb(40, 42, 54) ;
+box-shadow: inset 3px 3px 15px hsl(240, 1%, 23%) ,inset -3px -3px 15px hsl(0, 0%, 42%);
+}
+.last-footre{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 30px;
+   text-transform: capitalize;
 }

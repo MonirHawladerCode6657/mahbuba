@@ -172,6 +172,11 @@ font-size: 10px;
 height:250px;
 max-width: 300px;
 }
+.main-7-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
