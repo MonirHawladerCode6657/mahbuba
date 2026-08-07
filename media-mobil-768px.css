@@ -52,6 +52,9 @@ top:20px;
 .main-1 .link {
     display: none;
 }
+#fa-solid-fa-circle-xmark{
+    display: flex;
+}
 .main-0:has(#check-1:checked) .link{
  display: block;
 }
@@ -179,7 +182,13 @@ max-width: 300px;
 }
 
 
-
+.last-footre{
+    background-color: black;
+    width: 100%;
+    height:100px;
+    color: azure;
+   font-size:14px;
+}
 
 
 

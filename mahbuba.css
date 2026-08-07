@@ -127,6 +127,9 @@ top: 5px;
     text-align: center;
     border-radius: 10px;
 }
+#fa-solid-fa-circle-xmark{
+    display: none;
+}
 @keyframes background-color {
     0%{
         background-color: rgb(26, 5, 218);
