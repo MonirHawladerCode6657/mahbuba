@@ -23,10 +23,8 @@ body{
 
 .main-0{
     width:80vw;
-    height:4500px;
+    height:4400px;
    background-image:linear-gradient(rgba(0, 0, 0, 0.5)), url(./pic/texture.png);
-    /* background-color: rgb(40, 42, 54); */
-     /* background-image:linear-gradient(70deg, rgb(1, 18, 43),rgb(0, 8, 116),rgb(0, 15, 97)); */
 position: relative;
     }
 
